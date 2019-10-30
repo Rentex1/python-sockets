@@ -1,6 +1,6 @@
 import socket
 
-HOST = '10.211.55.3'  # The server's hostname or IP address
+HOST = '192.168.2.110'  # The server's hostname or IP address
 PORT = 65432        # The port used by the server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
