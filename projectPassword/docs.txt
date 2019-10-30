@@ -1,0 +1,10 @@
+                                        # Read Lines
+
+line = w.readlines()
+print (line[x])
+
+                                        # Read Lines and append them to a list
+content = [] 
+for line in w.readlines():
+    content.append(line.strip())
+
